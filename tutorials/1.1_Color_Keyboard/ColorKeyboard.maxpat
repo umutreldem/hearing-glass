@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-2",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 48.0, 68.0, 150.0, 74.0 ],
+					"text" : "Color Keyboard\nby HearingGlass\n\nhttps://www.youtube.com/watch?v=gbLRFn_-ygY"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"format" : 6,
 					"id" : "obj-176",
 					"maxclass" : "flonum",
@@ -47,7 +59,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 863.0, 352.0, 50.0, 22.0 ]
+					"patching_rect" : [ 849.0, 298.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -58,7 +70,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 863.0, 315.0, 32.0, 22.0 ],
+					"patching_rect" : [ 849.0, 261.0, 32.0, 22.0 ],
 					"text" : "/ 83."
 				}
 
@@ -72,7 +84,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 863.0, 411.0, 81.0, 23.0 ],
+					"patching_rect" : [ 849.0, 357.0, 81.0, 23.0 ],
 					"text" : "hsl $1 1. 0.5"
 				}
 
@@ -84,7 +96,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 863.0, 566.0, 107.0, 22.0 ],
+					"patching_rect" : [ 849.0, 512.0, 107.0, 22.0 ],
 					"text" : "prepend bgfillcolor"
 				}
 
@@ -97,7 +109,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 863.0, 466.0, 219.0, 64.0 ],
+					"patching_rect" : [ 849.0, 412.0, 219.0, 64.0 ],
 					"saturation" : 1.0
 				}
 
@@ -111,7 +123,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 863.0, 626.0, 418.0, 158.0 ],
+					"patching_rect" : [ 849.0, 572.0, 418.0, 158.0 ],
 					"proportion" : 0.39
 				}
 
@@ -122,7 +134,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 273.0, 320.0, 49.0, 22.0 ],
+					"patching_rect" : [ 259.0, 266.0, 49.0, 22.0 ],
 					"text" : "noteout"
 				}
 
@@ -135,7 +147,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 618.0, 230.0, 50.0, 22.0 ]
+					"patching_rect" : [ 604.0, 176.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -147,7 +159,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 273.0, 230.0, 50.0, 22.0 ]
+					"patching_rect" : [ 259.0, 176.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -159,7 +171,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 273.0, 122.0, 364.0, 57.0 ]
+					"patching_rect" : [ 259.0, 68.0, 364.0, 57.0 ]
 				}
 
 			}
