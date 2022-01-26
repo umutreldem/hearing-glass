@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
+		"rect" : [ 401.0, 207.0, 1372.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 484.0, 138.0, 205.0, 22.0 ],
+					"patching_rect" : [ 791.0, 156.251953125, 205.0, 22.0 ],
 					"text" : "jit.gl.camera space @position 0. 0. 1."
 				}
 
@@ -458,14 +458,14 @@
 		"dependency_cache" : [ 			{
 				"name" : "lab_lines.genjit",
 				"bootpath" : "~/Desktop/Electronics/MaxMSPJitter/Patches/DummyLabirnth",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "../DummyLabirnth",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lab_cubes.genjit",
 				"bootpath" : "~/Desktop/Electronics/MaxMSPJitter/Patches/DummyLabirnth",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "../DummyLabirnth",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
