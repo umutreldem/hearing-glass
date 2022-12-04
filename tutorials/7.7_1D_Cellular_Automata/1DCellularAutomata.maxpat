@@ -46,7 +46,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 73.0, 362.0, 179.0, 60.0 ],
-					"text" : "Elementary Cellular Automata\nby HearingGlass\n\nhttps://youtu.be/vQA-y9P9OSs"
+					"text" : "Elementary Cellular Automata\nby HearingGlass\n\nhttps://youtu.be/FP4yWTEFnVI"
 				}
 
 			}
@@ -90,7 +90,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 67.198007702827454, 213.399649679660797, 134.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Automatic Scroll Toggle"
 				}
 
@@ -102,7 +101,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 85.569631338119507, 142.305070996284485, 95.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Apply Selection"
 				}
 
@@ -1275,7 +1273,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1621.698352456092834, 135.477910995483398, 83.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "setcell1d 50 1"
 				}
 
@@ -2402,7 +2399,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1242.685976505279541, 129.305070996284485, 83.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "setcell1d 10 1"
 				}
 
