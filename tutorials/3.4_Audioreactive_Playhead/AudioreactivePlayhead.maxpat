@@ -14,13 +14,25 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-124",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 113.0, 66.0, 186.0, 47.0 ],
+					"text" : "Audioreactive Video Playback\nby Umut Eldem\nhttps://youtu.be/28RISXYZaVQ"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"filename" : "jit.fx.sobel.jxs",
 					"id" : "obj-121",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 176.0, 451.0, 62.0, 22.0 ],
+					"patching_rect" : [ 534.0, 488.0, 62.0, 22.0 ],
 					"text" : "jit.fx.sobel",
 					"textfile" : 					{
 						"filename" : "jit.fx.sobel.jxs",
@@ -41,7 +53,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_gl_texture" ],
-					"patching_rect" : [ 176.0, 539.0, 58.0, 22.0 ],
+					"patching_rect" : [ 534.0, 576.0, 58.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -66,7 +78,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 306.0, 163.0, 50.0, 22.0 ]
+					"patching_rect" : [ 664.0, 201.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -77,7 +89,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 176.0, 203.0, 148.809526115655899, 22.0 ],
+					"patching_rect" : [ 534.0, 241.0, 148.809526115655899, 22.0 ],
 					"text" : "* 1."
 				}
 
@@ -89,7 +101,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 176.0, 235.0, 67.0, 22.0 ],
+					"patching_rect" : [ 534.0, 273.0, 67.0, 22.0 ],
 					"text" : "slide 10 10"
 				}
 
@@ -103,7 +115,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 176.0, 163.0, 50.0, 22.0 ]
+					"patching_rect" : [ 534.0, 201.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -114,7 +126,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 176.0, 123.0, 82.0, 22.0 ],
+					"patching_rect" : [ 534.0, 161.0, 82.0, 22.0 ],
 					"text" : "peakamp~ 33"
 				}
 
@@ -125,7 +137,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 72.961540162563324, 208.653853118419647, 48.0, 20.0 ],
+					"patching_rect" : [ 384.0, 368.0, 48.0, 20.0 ],
 					"text" : "ezdac~"
 				}
 
@@ -136,7 +148,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 22.0, 208.653853118419647, 45.0, 45.0 ]
+					"patching_rect" : [ 384.0, 256.0, 98.925925076007843, 98.925925076007843 ]
 				}
 
 			}
@@ -145,10 +157,10 @@
 					"basictuning" : 440,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "micropercussion.mp3",
-								"filename" : "micropercussion.mp3",
+								"absolutepath" : "jongly.aif",
+								"filename" : "jongly.aif",
 								"filekind" : "audiofile",
-								"id" : "u825009207",
+								"id" : "u447011570",
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -169,7 +181,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 22.0, 45.0, 150.0, 30.0 ],
+					"patching_rect" : [ 381.0, 83.0, 150.0, 30.0 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"saved_attribute_attributes" : 					{
@@ -214,7 +226,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 176.0, 298.0, 67.0, 22.0 ],
+					"patching_rect" : [ 534.0, 336.0, 67.0, 22.0 ],
 					"text" : "position $1"
 				}
 
@@ -226,7 +238,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 514.846157729625702, 203.846160650253296, 121.0, 22.0 ],
+					"patching_rect" : [ 823.0, 358.0, 121.0, 22.0 ],
 					"text" : "read timelapse4.mp4"
 				}
 
@@ -238,7 +250,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 385.038461089134216, 203.846160650253296, 121.0, 22.0 ],
+					"patching_rect" : [ 686.0, 358.0, 121.0, 22.0 ],
 					"text" : "read timelapse3.mp4"
 				}
 
@@ -250,7 +262,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 529.269235134124756, 144.23077404499054, 121.0, 22.0 ],
+					"patching_rect" : [ 823.0, 302.0, 121.0, 22.0 ],
 					"text" : "read timelapse2.mp4"
 				}
 
@@ -262,7 +274,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 398.5, 144.23077404499054, 121.0, 22.0 ],
+					"patching_rect" : [ 692.0, 302.0, 121.0, 22.0 ],
 					"text" : "read timelapse1.mp4"
 				}
 
@@ -274,7 +286,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 176.0, 394.0, 173.0, 22.0 ],
+					"patching_rect" : [ 534.0, 432.0, 173.0, 22.0 ],
 					"text" : "jit.movie @autostart 0 @loop 0"
 				}
 
@@ -287,7 +299,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 270.0, 523.0, 24.0, 24.0 ]
+					"patching_rect" : [ 628.0, 559.0, 68.888886630535126, 68.888886630535126 ]
 				}
 
 			}
@@ -298,43 +310,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_matrix", "bang", "" ],
-					"patching_rect" : [ 176.0, 616.0, 282.0, 22.0 ],
+					"patching_rect" : [ 534.0, 654.0, 282.0, 22.0 ],
 					"text" : "jit.world videotime @floating 1 @preserve_aspect 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-92",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1048.0, 389.0, 35.0, 20.0 ],
-					"text" : "<--->"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-90",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 848.0, 375.0, 150.0, 47.0 ],
-					"text" : "Get the amplitude of an audio signal as a number -DONE!!!-"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-88",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1126.0, 375.0, 179.245280027389526, 33.0 ],
-					"text" : "Manually change the playback position of a video -DONE!!!!-"
 				}
 
 			}
@@ -347,7 +324,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 384.0, 474.0, 150.0, 22.0 ]
+					"patching_rect" : [ 753.0, 512.0, 150.0, 22.0 ]
 				}
 
 			}
@@ -360,7 +337,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 242.0, 474.0, 150.0, 22.0 ]
+					"patching_rect" : [ 600.0, 512.0, 150.0, 22.0 ]
 				}
 
 			}
@@ -373,7 +350,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 669.230791568756104, 215.384622573852539, 150.0, 22.0 ]
+					"patching_rect" : [ 609.0, 472.0, 150.0, 22.0 ]
 				}
 
 			}
@@ -559,14 +536,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "micropercussion.mp3",
-				"bootpath" : "~/Documents/Max 9/Packages/Upshot/media",
-				"patcherrelativepath" : "../../../../../Documents/Max 9/Packages/Upshot/media",
-				"type" : "Mp3",
+				"name" : "jongly.aif",
+				"bootpath" : "C74:/media/msp",
+				"type" : "AIFF",
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 	}
 
 }
